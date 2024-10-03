@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: black;
+  color: white;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+.icons{
+  display: flex;
+}
+.contact{
+  display: flex;
+}
+.icons>div{
+  padding: 0px 15px;
+}
+.contact>div{
+  padding: 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#back{
+  background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url('image.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+  border-bottom: 1px solid rgb(50, 49, 49);
+  width: 94%;
+  margin: auto;
+
+}
+li{
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+  display:flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+.list{
+  display: flex;
+}
+.logo i{
+  color: rgb(243, 88, 32);
+  padding:0px 15px;
+}
+.list>li{
+  font-size: 14px;
+  padding: 0px 15px;
+}
+.soci{
+  padding-left: 3px;
+}
+#caption{
+  padding: 100px 400px 10px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#caption h1{
+  color: white;
+  font-size: 50px;
+}
+#caption p{
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 50px 15px 0px;
+  line-height: 2.0; 
+}
+#caption button{
+  padding: 15px 20px;
+  color: white;
+  font-weight: 900;
+  background-color: rgb(248, 89, 31);
+  border: none;
+}
+.one{
+  border:1px solid transparent;
+  background-color:rgba(245, 245, 245, 0.152);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.one h3{
+  padding-bottom: 20px;
+  color: white;
+}
+.one p{
+  color: grey;
+  padding: 25px 0px;
+  line-height: 1.5;
+}
+#root{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  margin-top: 10px;
+}
+#popular{
+  text-align: center;
+  margin: 50px 0px 10px;
+}
+#popular h1{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#popular p{
+  color: grey;
+  padding-top: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.dropdown{
+  display: none;
+}
+
+   @media(max-width:1264px){
+  #caption h1{
+    font-size: 45px;
+  }
+}
+@media(max-width:1182px){ 
+  #caption{
+    padding: 100px 600px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  #caption h1{
+    font-size: 30px;
+  }
+}
+@media(max-width:1104px){
+  #caption{
+    padding: 100px 500px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:1042px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width:260px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:986px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 240px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:963px){
+  #caption{
+    padding: 100px 450px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .list{
+    display: none;
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content{
+    position: absolute;
+    display: none;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+}
+@media(max-width:925px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 230px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:912px){
+  #caption{
+    padding: 100px 350px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:895px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:866px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 210px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:836px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:812px){
+  .one{
+    border:1px solid transparent;
+    background-color:rgba(245, 245, 245, 0.152);
+    width: 220px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  #caption{
+    padding: 100px 250px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  #box{
+    margin-top: 80px;
+  }
+}
+@media(max-width:799px){
+  #box{
+    margin-top: 140px;
+  }
+  #root{
+    flex-wrap: wrap;
+  }
+  .one h3{
+    color: black;
+  }
+  .one{
+    box-shadow: 10px 10px 8px grey;
+    margin: 10px auto;
+    max-width: 220px;
+  }
+}
+@media(max-width:620px){
+  header{
+    display: none;
+  }
+  #caption{
+    padding: 100px 150px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:468px){
+  #caption{
+    padding: 100px 100px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:468px){
+  #caption{
+    padding: 100px 60px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  #popular h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+
+@media(max-width:410px){
+  #caption{
+    padding: 100px 50px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  #popular h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
+@media(max-width:400px){
+  #caption{
+    padding: 100px 20px 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  #popular h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+}
